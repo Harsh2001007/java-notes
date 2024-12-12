@@ -9,7 +9,15 @@ class Student {
     String studentCity;
 
     public Student(){
-        System.out.println("Hi i will run as soon as someone crete object of this class");
+        System.out.println("this is non-parameterised constructor");
+    }
+
+    public Student(int valOne){
+        System.out.println("this is a parameterized constructor");
+    }
+
+    public Student(String strValOne){
+        System.out.println("this is parameterized but holding string value");
     }
 
 

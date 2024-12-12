@@ -8,9 +8,11 @@ class StudentData{
 
         Student st1;
         Student st2;
+        Student st3;
 
         st1 = new Student();
-        st2 = new Student();
+        st2 = new Student(45);
+        st3 = new Student("Shristi");
 
         st1.studentName = "harsh sachan";
         st1.studentID = 7;
@@ -27,6 +29,8 @@ class StudentData{
 
         st2.showFullDetail();
         st2.study();
+
+
 
     }
 }

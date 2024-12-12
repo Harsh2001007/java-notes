@@ -8,6 +8,10 @@ class Student {
     String studentName;
     String studentCity;
 
+    public Student(){
+        System.out.println("Hi i will run as soon as someone crete object of this class");
+    }
+
 
 
     // Behaviour or methods

@@ -1,5 +1,7 @@
 package oops.practice;
 
+import com.sun.tools.javac.Main;
+
 class MainOop{
 
     int carModelNum;
@@ -8,10 +10,16 @@ class MainOop{
     int carTopSpeed;
 
 
+    // non parameterised constructor
     public MainOop(){
         System.out.println("Introducing you the car oop model !!!!");
     }
 
+    // parameteized constructor
+
+    public MainOop(int i, String s){
+        System.out.println("The demo contains info pdf of " + i + " pages with file name " + s);
+    }
 
 
     public void getTopSpeed(){

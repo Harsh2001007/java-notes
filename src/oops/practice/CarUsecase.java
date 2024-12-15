@@ -12,7 +12,7 @@ class CarUsecase{
         carObjectPdf = new MainOop(48, "GT3");
 
 
-        carObject.carTopSpeed = 260;
+        carObject.carTopSpeed = 310;
         carObject.carModelName = "porsche 911 gt3";
         carObject.carColor = "silver";
 

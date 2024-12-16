@@ -14,7 +14,7 @@ class CarUsecase{
 
         carObject.carTopSpeed = 310;
         carObject.carModelName = "porsche 911 gt3";
-        carObject.carColor = "silver";
+        carObject.carColor = "Yellow";
 
 
 //        carObjectPdf.carTopSpeed = 260;

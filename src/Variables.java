@@ -15,7 +15,7 @@ class variables{
 
         //changing value of a to 67;
 
-        a = 67;
+        a = 167;
         System.out.println(a);
     }
 }
